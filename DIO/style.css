@@ -17,3 +17,13 @@ body {
     border: 3px solid black;
     margin: 10px;
 }
+
+.perfil{
+    width: 100px;
+    height: 100px;
+}
+
+.background{
+    width: 50%;
+    height: 50%;
+}
