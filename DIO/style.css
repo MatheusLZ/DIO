@@ -9,21 +9,32 @@ body {
 .supertitle {
     font-size: 16px;
     font-style: oblique;
+    margin: 0;
+    margin-bottom: 15px;
 }
 
 .post {
     background: #FFFF;
-    padding: 10px;
+    padding: 15px;
     border: 3px solid black;
-    margin: 10px;
+    margin-bottom: 15px;
+    border-radius: 2%;
 }
 
 .perfil{
     width: 100px;
     height: 100px;
+    border-radius: 50%;
 }
 
 .background{
     width: 50%;
     height: 50%;
+    margin-bottom: 15px;
+    margin-left: 25%;
+}
+
+.super_content{
+    margin: 0;
+    margin-bottom: 15px;
 }
