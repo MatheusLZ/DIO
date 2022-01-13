@@ -44,3 +44,8 @@ body {
     margin: 0;
     margin-bottom: 15px;
 }
+
+.lista{
+    list-style-type: none;
+    padding-left: 20px;
+}
