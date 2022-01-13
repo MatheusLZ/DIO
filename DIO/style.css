@@ -1,6 +1,8 @@
 body {
     background-color: skyblue;
     font-family: Verdana;
+    max-width: 900px;
+    margin: auto;
 }
 
 #title, .subtitle, .supertitle {
@@ -43,6 +45,7 @@ body {
 .super_content{
     margin: 0;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 .lista{
