@@ -1,0 +1,573 @@
+Microsoft Windows [versão 10.0.18363.1556]
+(c) 2019 Microsoft Corporation. Todos os direitos reservados.
+
+C:\Users\username>dotnet __version
+
+Bem-vindo(a) ao .NET 5.0.
+---------------------
+Versão do SDK: 5.0.201
+
+Telemetria
+---------
+As ferramentas do .NET coletam dados de uso para ajudar-nos a aprimorar sua experiência. Eles são coletados pela Microsoft e compartilhados com a comunidade. Você pode recusar a telemetria definindo a variável de ambiente DOTNET_CLI_TELEMETRY_OPTOUT como '1' ou 'true' usando seu shell favorito.
+
+Leia mais sobre a telemetria das Ferramentas da CLI do .NET: https://aka.ms/dotnet-cli-telemetry
+
+----------------
+Um certificado de desenvolvimento HTTPS ASP.NET Core foi instalado.
+Para confiar no certificado, execute 'dotnet dev-certs https --trust' (somente Windows e macOS).
+Saiba mais sobre HTTPS: https://aka.ms/dotnet-https
+----------------
+Escreva seu primeiro aplicativo: https://aka.ms/dotnet-hello-world
+Descubra o que há de novo: https://aka.ms/dotnet-whats-new
+Explore a documentação: https://aka.ms/dotnet-docs
+Relate problemas e encontre a fonte no GitHub: https://github.com/dotnet/core
+Use 'dotnet --help' para ver os comandos disponíveis ou visite: https://aka.ms/dotnet-cli
+--------------------------------------------------------------------------------------
+Não foi possível executar porque o comando ou o arquivo especificado não foi encontrado.
+Possíveis motivos para isso incluem:
+  * Você digitou incorretamente um comando de dotnet interno.
+  * Você pretendia executar um programa .NET, mas dotnet-__version não existe.
+  * Você pretendia executar uma ferramenta global, mas não foi possível encontrar um executável com prefixo de dotnet com esse nome no CAMINHO.
+
+C:\Users\username>
+
+C:\Users\username>
+
+C:\Users\username>dotnet --help
+SDK do .NET (5.0.201)
+Uso: dotnet [runtime-options] [path-to-application] [arguments]
+
+Execute um aplicativo do .NET.
+
+runtime-options:
+  --additionalprobingpath <path>   Caminho contendo a política de investigação e os assemblies a investigar.
+  --additional-deps <path>         Caminho para o arquivo deps.json adicional.
+  --depsfile                       Caminho para o arquivo <application>.deps.json.
+  --fx-version <version>           Versão do Shared Framework instalada a ser usada para a execução do aplicativo.
+  --roll-forward <setting>         Role para frente para a versão de estrutura (LatestPatch, Minor, LatestMinor, Major, LatestMajor, Disable).
+  --runtimeconfig                  Caminho para o arquivo <application>. runtimeconfig.json.
+
+path-to-application:
+  O caminho para um arquivo .dll de aplicativo a ser executado.
+
+Uso: dotnet [sdk-options] [command] [command-options] [arguments]
+
+Execute um comando do SDK do .NET.
+
+sdk-options:
+  -d|--diagnostics  Habilitar saída de diagnóstico.
+  -h|--help         Mostrar a ajuda da linha de comando.
+  --info            Exiba informações do .NET.
+  --list-runtimes   Exiba os runtimes instalados.
+  --list-sdks       Exiba os SDKs instalados.
+  --version         Exiba a versão do SDK do .NET em uso.
+
+Comandos do SDK:
+  add               Adicionar um pacote ou uma referência a um projeto do .NET.
+  build             Criar um projeto do .NET.
+  build-server      Interagir com servidores iniciados por um build.
+  clean             Limpar as saídas do build de um projeto do .NET.
+  help              Mostrar a ajuda da linha de comando.
+  list              Listar as referências de um projeto do .NET.
+  msbuild           Executar comandos do MSBuild (Microsoft Build Engine).
+  new               Criar um novo projeto ou arquivo do .NET.
+  nuget             Fornece comandos adicionais do NuGet.
+  pack              Criar um pacote do NuGet.
+  publish           Publicar um projeto do .NET para implantação.
+  remove            Remover um pacote ou uma referência de um projeto do .NET.
+  restore           Restaurar as dependências especificadas em um projeto do .NET.
+  run               Criar e executar uma saída de projeto do .NET.
+  sln               Modificar os arquivos da solução do Visual Studio.
+  store             Armazenar os assemblies especificados no repositório de pacotes do runtime.
+  test              Executar testes de unidade usando o executor de testes especificado em um projeto do .NET.
+  tool              Instalar ou gerenciar ferramentas que ampliam a experiência do .NET.
+  vstest            Executar comandos do VSTest (Microsoft Test Engine).
+
+Comandos adicionais de ferramentas em pacote:
+  dev-certs         Crie e gerencie certificados de desenvolvimento.
+  fsi               Iniciar F# Interativo / executar scripts do F#.
+  sql-cache         Ferramentas de linha de comando do cache do SQL Server.
+  user-secrets      Gerencie segredos do usuário de desenvolvimento.
+  watch             Inicie um observador de arquivo que executa um comando quando os arquivos são alterados.
+
+Execute 'dotnet [command] --help' para obter mais informações sobre um comando.
+
+C:\Users\username>dotnet --info
+SDK do .NET (refletindo qualquer global.json):
+ Version:   5.0.201
+ Commit:    a09bd5c86c
+
+Ambiente de runtime:
+ OS Name:     Windows
+ OS Version:  10.0.18363
+ OS Platform: Windows
+ RID:         win10-x64
+ Base Path:   C:\Program Files\dotnet\sdk\5.0.201\
+
+Host (useful for support):
+  Version: 5.0.4
+  Commit:  f27d337295
+
+.NET SDKs installed:
+  3.1.416 [C:\Program Files\dotnet\sdk]
+  3.1.416 [C:\Program Files\dotnet\sdk]
+  5.0.201 [C:\Program Files\dotnet\sdk]
+  5.0.201 [C:\Program Files\dotnet\sdk]
+
+.NET runtimes installed:
+  Microsoft.AspNetCore.All 2.1.26 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.All]
+  Microsoft.AspNetCore.All 2.1.26 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.All]
+  Microsoft.AspNetCore.App 2.1.26 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 2.1.26 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 3.1.13 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 3.1.13 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 3.1.22 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 3.1.22 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 5.0.4 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 5.0.4 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.NETCore.App 2.1.26 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 2.1.26 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 3.1.13 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 3.1.13 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 3.1.22 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 3.1.22 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 5.0.4 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 5.0.4 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.WindowsDesktop.App 3.1.13 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.WindowsDesktop.App 3.1.13 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.WindowsDesktop.App 3.1.22 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.WindowsDesktop.App 3.1.22 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.WindowsDesktop.App 5.0.4 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.WindowsDesktop.App 5.0.4 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+
+To install additional .NET runtimes or SDKs:
+  https://aka.ms/dotnet-download
+
+C:\Users\username>dotnet new
+Getting ready...
+Templates                                     Short Name           Language    Tags
+--------------------------------------------  -------------------  ----------  ----------------------
+Console Application                           console              [C#],F#,VB  Common/Console
+Class library                                 classlib             [C#],F#,VB  Common/Library
+WPF Application                               wpf                  [C#],VB     Common/WPF
+WPF Class library                             wpflib               [C#],VB     Common/WPF
+WPF Custom Control Library                    wpfcustomcontrollib  [C#],VB     Common/WPF
+WPF User Control Library                      wpfusercontrollib    [C#],VB     Common/WPF
+Windows Forms App                             winforms             [C#],VB     Common/WinForms
+Windows Forms Control Library                 winformscontrollib   [C#],VB     Common/WinForms
+Windows Forms Class Library                   winformslib          [C#],VB     Common/WinForms
+Worker Service                                worker               [C#],F#     Common/Worker/Web
+Unit Test Project                             mstest               [C#],F#,VB  Test/MSTest
+NUnit 3 Test Project                          nunit                [C#],F#,VB  Test/NUnit
+NUnit 3 Test Item                             nunit-test           [C#],F#,VB  Test/NUnit
+xUnit Test Project                            xunit                [C#],F#,VB  Test/xUnit
+Razor Component                               razorcomponent       [C#]        Web/ASP.NET
+Razor Page                                    page                 [C#]        Web/ASP.NET
+MVC ViewImports                               viewimports          [C#]        Web/ASP.NET
+MVC ViewStart                                 viewstart            [C#]        Web/ASP.NET
+Blazor Server App                             blazorserver         [C#]        Web/Blazor
+Blazor WebAssembly App                        blazorwasm           [C#]        Web/Blazor/WebAssembly
+ASP.NET Core Empty                            web                  [C#],F#     Web/Empty
+ASP.NET Core Web App (Model-View-Controller)  mvc                  [C#],F#     Web/MVC
+ASP.NET Core Web App                          webapp               [C#]        Web/MVC/Razor Pages
+ASP.NET Core with Angular                     angular              [C#]        Web/MVC/SPA
+ASP.NET Core with React.js                    react                [C#]        Web/MVC/SPA
+ASP.NET Core with React.js and Redux          reactredux           [C#]        Web/MVC/SPA
+Razor Class Library                           razorclasslib        [C#]        Web/Razor/Library
+ASP.NET Core Web API                          webapi               [C#],F#     Web/WebAPI
+ASP.NET Core gRPC Service                     grpc                 [C#]        Web/gRPC
+dotnet gitignore file                         gitignore                        Config
+global.json file                              globaljson                       Config
+NuGet Config                                  nugetconfig                      Config
+Dotnet local tool manifest file               tool-manifest                    Config
+Web Config                                    webconfig                        Config
+Solution File                                 sln                              Solution
+Protocol Buffer File                          proto                            Web/gRPC
+
+Examples:
+    dotnet new mvc --auth Individual
+    dotnet new worker
+    dotnet new --help
+    dotnet new nunit --help
+
+C:\Users\username>dotnet new --list --tag web
+Invalid input switch:
+  --tag
+  web
+Run dotnet new --help for usage information.
+
+C:\Users\username>dotnet new --list --tag web
+Invalid input switch:
+  --tag
+  web
+Run dotnet new --help for usage information.
+
+C:\Users\username>dotnet new -- list -- tag web
+Templates                                  Short Name           Language    Tags
+-----------------------------------------  -------------------  ----------  ----------------------
+Console Application                        console              [C#],F#,VB  Common/Console
+Class library                              classlib             [C#],F#,VB  Common/Library
+WPF Application                            wpf                  [C#],VB     Common/WPF
+WPF Class library                          wpflib               [C#],VB     Common/WPF
+WPF Custom Control Library                 wpfcustomcontrollib  [C#],VB     Common/WPF
+WPF User Control Library                   wpfusercontrollib    [C#],VB     Common/WPF
+Windows Forms App                          winforms             [C#],VB     Common/WinForms
+Windows Forms Control Library              winformscontrollib   [C#],VB     Common/WinForms
+Windows Forms Class Library                winformslib          [C#],VB     Common/WinForms
+Worker Service                             worker               [C#],F#     Common/Worker/Web
+Unit Test Project                          mstest               [C#],F#,VB  Test/MSTest
+NUnit 3 Test Project                       nunit                [C#],F#,VB  Test/NUnit
+NUnit 3 Test Item                          nunit-test           [C#],F#,VB  Test/NUnit
+xUnit Test Project                         xunit                [C#],F#,VB  Test/xUnit
+Razor Component                            razorcomponent       [C#]        Web/ASP.NET
+Razor Page                                 page                 [C#]        Web/ASP.NET
+MVC ViewImports                            viewimports          [C#]        Web/ASP.NET
+MVC ViewStart                              viewstart            [C#]        Web/ASP.NET
+Blazor Server App                          blazorserver         [C#]        Web/Blazor
+Blazor WebAssembly App                     blazorwasm           [C#]        Web/Blazor/WebAssembly
+ASP.NET Core Empty                         web                  [C#],F#     Web/Empty
+ASP.NET Core Web App (Model-View-Contr...  mvc                  [C#],F#     Web/MVC
+ASP.NET Core Web App                       webapp               [C#]        Web/MVC/Razor Pages
+ASP.NET Core with Angular                  angular              [C#]        Web/MVC/SPA
+ASP.NET Core with React.js                 react                [C#]        Web/MVC/SPA
+ASP.NET Core with React.js and Redux       reactredux           [C#]        Web/MVC/SPA
+Razor Class Library                        razorclasslib        [C#]        Web/Razor/Library
+ASP.NET Core Web API                       webapi               [C#],F#     Web/WebAPI
+ASP.NET Core gRPC Service                  grpc                 [C#]        Web/gRPC
+dotnet gitignore file                      gitignore                        Config
+global.json file                           globaljson                       Config
+NuGet Config                               nugetconfig                      Config
+Dotnet local tool manifest file            tool-manifest                    Config
+Web Config                                 webconfig                        Config
+Solution File                              sln                              Solution
+Protocol Buffer File                       proto                            Web/gRPC
+
+Examples:
+    dotnet new mvc --auth Individual
+    dotnet new mstest
+    dotnet new --help
+    dotnet new nunit --help
+
+C:\Users\username>dotnet new --list tag web
+Invalid input switch:
+  tag
+  web
+Run dotnet new --help for usage information.
+
+C:\Users\username>dotnet new --list --tag = web
+Invalid input switch:
+  --tag
+  =
+  web
+Run dotnet new --help for usage information.
+
+C:\Users\username>dotnet new --list -tag web
+Invalid input switch:
+  -tag
+  web
+Run dotnet new --help for usage information.
+
+C:\Users\username>dotnet new --tag web
+Invalid input switch:
+  --tag
+  web
+Run dotnet new --help for usage information.
+
+C:\Users\username>dotnet list --tag web
+O comando necessário não foi fornecido.
+Uso: dotnet list [options] <PROJECT | SOLUTION> [command]
+
+Argumentos:
+  <PROJECT | SOLUTION>   O arquivo de solução ou projeto para operar. Se um arquivo não for especificado, o comando pesquisará um no diretório atual.
+
+Opções:
+  -h, --help   Mostrar a ajuda da linha de comando.
+
+Comandos:
+  package     Listar todas as referências de pacote do projeto ou da solução.
+  reference   Listar todas as referências de projeto a projeto do projeto.
+
+C:\Users\username>dotnet new --list --tag web
+Invalid input switch:
+  --tag
+  web
+Run dotnet new --help for usage information.
+
+C:\Users\username>dotnet new --list --tag 'web'
+Invalid input switch:
+  --tag
+  'web'
+Run dotnet new --help for usage information.
+
+C:\Users\username>dotnet new --help
+Uso: new [options]
+
+Opções:
+  -h, --help          Displays help for this command.
+  -l, --list          Lists templates containing the specified template name. If no name is specified, lists all templates.
+  -n, --name          The name for the output being created. If no name is specified, the name of the output directory is used.
+  -o, --output        Location to place the generated output.
+  -i, --install       Installs a source or a template pack.
+  -u, --uninstall     Uninstalls a source or a template pack.
+  --interactive       Allows the internal dotnet restore command to stop and wait for user input or action (for example to complete authentication).
+  --nuget-source      Specifies a NuGet source to use during install.
+  --type              Filters templates based on available types. Predefined values are "project" and "item".
+  --dry-run           Displays a summary of what would happen if the given command line were run if it would result in a template creation.
+  --force             Forces content to be generated even if it would change existing files.
+  -lang, --language   Filters templates based on language and specifies the language of the template to create.
+  --update-check      Check the currently installed template packs for updates.
+  --update-apply      Check the currently installed template packs for update, and install the updates.
+
+
+
+C:\Users\username>C:\Users\username>dotnet --help
+'C:\Users\username' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\username>SDK do .NET (5.0.201)
+'SDK' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\username>Uso: dotnet [runtime-options] [path-to-application] [arguments]
+'Uso:' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\username>
+C:\Users\username>Execute um aplicativo do .NET.
+'Execute' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\username>
+C:\Users\username>runtime-options:
+'runtime-options:' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\username>  --additionalprobingpath <path>   Caminho contendo a política de investigação e os assemblies a investigar.
+O sistema não pode encontrar o arquivo especificado.
+
+C:\Users\username>  --additional-deps <path>         Caminho para o arquivo deps.json adicional.
+O sistema não pode encontrar o arquivo especificado.
+
+C:\Users\username>  --depsfile                       Caminho para o arquivo <application>.deps.json.
+O sistema não pode encontrar o arquivo especificado.
+
+C:\Users\username>  --fx-version <version>           Versão do Shared Framework instalada a ser usada para a execução do aplicativo.
+O sistema não pode encontrar o arquivo especificado.
+
+C:\Users\username>  --roll-forward <setting>         Role para frente para a versão de estrutura (LatestPatch, Minor, LatestMinor, Major, LatestMajor, Disable).
+O sistema não pode encontrar o arquivo especificado.
+
+C:\Users\username>  --runtimeconfig                  Caminho para o arquivo <application>. runtimeconfig.json.
+O sistema não pode encontrar o arquivo especificado.
+
+C:\Users\username>
+C:\Users\username>path-to-application:
+'path-to-application:' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\username>  O caminho para um arquivo .dll de aplicativo a ser executado.
+'O' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\username>
+C:\Users\username>Uso: dotnet [sdk-options] [command] [command-options] [arguments]
+'Uso:' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\username>
+C:\Users\username>Execute um comando do SDK do .NET.
+'Execute' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\username>
+C:\Users\username>sdk-options:
+'sdk-options:' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\username>  -d|--diagnostics  Habilitar saída de diagnóstico.
+'-d' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\username>  -h|--help         Mostrar a ajuda da linha de comando.
+'-h' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\username>  --info            Exiba informações do .NET.
+'--info' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\username>  --list-runtimes   Exiba os runtimes instalados.
+'--list-runtimes' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\username>  --list-sdks       Exiba os SDKs instalados.
+'--list-sdks' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\username>  --version         Exiba a versão do SDK do .NET em uso.
+'--version' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\username>
+C:\Users\username>Comandos do SDK:
+'Comandos' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\username>  add               Adicionar um pacote ou uma referência a um projeto do .NET.
+'add' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\username>  build             Criar um projeto do .NET.
+'build' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\username>  build-server      Interagir com servidores iniciados por um build.
+'build-server' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\username>  clean             Limpar as saídas do build de um projeto do .NET.
+'clean' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\username>  help              Mostrar a ajuda da linha de comando.
+Fornece informações de ajuda sobre comandos do Windows.
+
+HELP [comando]
+
+    comando - exibe informações de ajuda sobre o comando.
+
+C:\Users\username>  list              Listar as referências de um projeto do .NET.
+'list' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\username>  msbuild           Executar comandos do MSBuild (Microsoft Build Engine).
+'msbuild' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\username>  new               Criar um novo projeto ou arquivo do .NET.
+'new' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\username>  nuget             Fornece comandos adicionais do NuGet.
+'nuget' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\username>  pack              Criar um pacote do NuGet.
+'pack' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\username>  publish           Publicar um projeto do .NET para implantação.
+'publish' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\username>  remove            Remover um pacote ou uma referência de um projeto do .NET.
+'remove' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\username>  restore           Restaurar as dependências especificadas em um projeto do .NET.
+'restore' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\username>  run               Criar e executar uma saída de projeto do .NET.
+'run' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\username>  sln               Modificar os arquivos da solução do Visual Studio.
+'sln' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\username>  store             Armazenar os assemblies especificados no repositório de pacotes do runtime.
+'store' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\username>  test              Executar testes de unidade usando o executor de testes especificado em um projeto do .NET.
+'test' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\username>  tool              Instalar ou gerenciar ferramentas que ampliam a experiência do .NET.
+'tool' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\username>  vstest            Executar comandos do VSTest (Microsoft Test Engine).
+'vstest' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\username>
+C:\Users\username>Comandos adicionais de ferramentas em pacote:
+'Comandos' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\username>  dev-certs         Crie e gerencie certificados de desenvolvimento.
+'dev-certs' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\username>  fsi               Iniciar F# Interativo / executar scripts do F#.
+'fsi' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\username>  sql-cache         Ferramentas de linha de comando do cache do SQL Server.
+'sql-cache' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\username>  user-secrets      Gerencie segredos do usuário de desenvolvimento.
+'user-secrets' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\username>  watch             Inicie um observador de arquivo que executa um comando quando os arquivos são alterados.
+'watch' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\username>
+C:\Users\username>Execute 'dotnet [command] --help' para obter mais informações sobre um comando.
+'Execute' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\username>
+C:\Users\username>dotnet new console -n myApp
+The template "Console Application" was created successfully.
+
+Processing post-creation actions...
+Running 'dotnet restore' on myApp\myApp.csproj...
+  Determinando os projetos a serem restaurados...
+  C:\Users\username\myApp\myApp.csproj restaurado (em 269 ms).
+Restore succeeded.
+
+
+C:\Users\username>dotnet new console -o myApp
+Creating this template will make changes to existing files:
+  Overwrite   myApp.csproj
+  Overwrite   Program.cs
+
+Rerun the command and pass --force to accept and create.
+
+C:\Users\username>cd myApp
+
+C:\Users\username\myApp>dotnet run
+Hello World!
+
+C:\Users\username\myApp>dotnet build
+Microsoft(R) Build Engine versão 16.9.0+57a23d249 para .NET
+Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+
+  Determinando os projetos a serem restaurados...
+  Todos os projetos estão atualizados para restauração.
+  myApp -> C:\Users\username\myApp\bin\Debug\net5.0\myApp.dll
+
+Compilação com êxito.
+    0 Aviso(s)
+    0 Erro(s)
+
+Tempo Decorrido 00:00:01.92
+
+C:\Users\username\myApp>dotnet run
+Hello World!
+
+C:\Users\username\myApp>dotnet restore
+  Determinando os projetos a serem restaurados...
+  Todos os projetos estão atualizados para restauração.
+
+C:\Users\username\myApp>dotnet run
+Hello World!
+
+C:\Users\username\myApp>
