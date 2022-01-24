@@ -1,0 +1,15 @@
+C:\Users\nicho\Pictures\Linguagem\.NET\TesteSemFalha\bin\Debug\net6.0\TesteSemFalha.exe
+C:\Users\nicho\Pictures\Linguagem\.NET\TesteSemFalha\bin\Debug\net6.0\TesteSemFalha.deps.json
+C:\Users\nicho\Pictures\Linguagem\.NET\TesteSemFalha\bin\Debug\net6.0\TesteSemFalha.runtimeconfig.json
+C:\Users\nicho\Pictures\Linguagem\.NET\TesteSemFalha\bin\Debug\net6.0\TesteSemFalha.dll
+C:\Users\nicho\Pictures\Linguagem\.NET\TesteSemFalha\bin\Debug\net6.0\ref\TesteSemFalha.dll
+C:\Users\nicho\Pictures\Linguagem\.NET\TesteSemFalha\bin\Debug\net6.0\TesteSemFalha.pdb
+C:\Users\nicho\Pictures\Linguagem\.NET\TesteSemFalha\obj\Debug\net6.0\TesteSemFalha.csproj.AssemblyReference.cache
+C:\Users\nicho\Pictures\Linguagem\.NET\TesteSemFalha\obj\Debug\net6.0\TesteSemFalha.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nicho\Pictures\Linguagem\.NET\TesteSemFalha\obj\Debug\net6.0\TesteSemFalha.AssemblyInfoInputs.cache
+C:\Users\nicho\Pictures\Linguagem\.NET\TesteSemFalha\obj\Debug\net6.0\TesteSemFalha.AssemblyInfo.cs
+C:\Users\nicho\Pictures\Linguagem\.NET\TesteSemFalha\obj\Debug\net6.0\TesteSemFalha.csproj.CoreCompileInputs.cache
+C:\Users\nicho\Pictures\Linguagem\.NET\TesteSemFalha\obj\Debug\net6.0\TesteSemFalha.dll
+C:\Users\nicho\Pictures\Linguagem\.NET\TesteSemFalha\obj\Debug\net6.0\ref\TesteSemFalha.dll
+C:\Users\nicho\Pictures\Linguagem\.NET\TesteSemFalha\obj\Debug\net6.0\TesteSemFalha.pdb
+C:\Users\nicho\Pictures\Linguagem\.NET\TesteSemFalha\obj\Debug\net6.0\TesteSemFalha.genruntimeconfig.cache
