@@ -1,0 +1,15 @@
+C:\Users\nicho\Pictures\Linguagem\.NET\Revisionar\bin\Debug\net6.0\Revisionar.exe
+C:\Users\nicho\Pictures\Linguagem\.NET\Revisionar\bin\Debug\net6.0\Revisionar.deps.json
+C:\Users\nicho\Pictures\Linguagem\.NET\Revisionar\bin\Debug\net6.0\Revisionar.runtimeconfig.json
+C:\Users\nicho\Pictures\Linguagem\.NET\Revisionar\bin\Debug\net6.0\Revisionar.dll
+C:\Users\nicho\Pictures\Linguagem\.NET\Revisionar\bin\Debug\net6.0\ref\Revisionar.dll
+C:\Users\nicho\Pictures\Linguagem\.NET\Revisionar\bin\Debug\net6.0\Revisionar.pdb
+C:\Users\nicho\Pictures\Linguagem\.NET\Revisionar\obj\Debug\net6.0\Revisionar.csproj.AssemblyReference.cache
+C:\Users\nicho\Pictures\Linguagem\.NET\Revisionar\obj\Debug\net6.0\Revisionar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nicho\Pictures\Linguagem\.NET\Revisionar\obj\Debug\net6.0\Revisionar.AssemblyInfoInputs.cache
+C:\Users\nicho\Pictures\Linguagem\.NET\Revisionar\obj\Debug\net6.0\Revisionar.AssemblyInfo.cs
+C:\Users\nicho\Pictures\Linguagem\.NET\Revisionar\obj\Debug\net6.0\Revisionar.csproj.CoreCompileInputs.cache
+C:\Users\nicho\Pictures\Linguagem\.NET\Revisionar\obj\Debug\net6.0\Revisionar.dll
+C:\Users\nicho\Pictures\Linguagem\.NET\Revisionar\obj\Debug\net6.0\ref\Revisionar.dll
+C:\Users\nicho\Pictures\Linguagem\.NET\Revisionar\obj\Debug\net6.0\Revisionar.pdb
+C:\Users\nicho\Pictures\Linguagem\.NET\Revisionar\obj\Debug\net6.0\Revisionar.genruntimeconfig.cache
