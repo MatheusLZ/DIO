@@ -33,3 +33,24 @@ Apagar o método após While e trocar o Console.ReadLine pelo nome do novo méto
 - 
 
 
+...
+
+depois...adicionar elementos aos breaks...tais quais em sua grande forma são bem complicados
+
+------------------------------------
+
+
+
+
+
+
+
+
+
+ 20                       aluno.Nome = Console.ReadLine();
+
+Não é possível converter implicitamente tipo "string" em "int" [Revisionar] csharp(CS0029) [20,38]
+
+Um erro que quebrou meu código e a execução não funciona, se tentar mudar ele acusa outros erros então...isso é bem frustrante, na verdade.
+
+
