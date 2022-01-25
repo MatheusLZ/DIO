@@ -1,0 +1,15 @@
+C:\Users\nicho\Pictures\Linguagem\.NET\ProgramaTesteCsharp\bin\Debug\net6.0\ProgramaTesteCsharp.exe
+C:\Users\nicho\Pictures\Linguagem\.NET\ProgramaTesteCsharp\bin\Debug\net6.0\ProgramaTesteCsharp.deps.json
+C:\Users\nicho\Pictures\Linguagem\.NET\ProgramaTesteCsharp\bin\Debug\net6.0\ProgramaTesteCsharp.runtimeconfig.json
+C:\Users\nicho\Pictures\Linguagem\.NET\ProgramaTesteCsharp\bin\Debug\net6.0\ProgramaTesteCsharp.dll
+C:\Users\nicho\Pictures\Linguagem\.NET\ProgramaTesteCsharp\bin\Debug\net6.0\ref\ProgramaTesteCsharp.dll
+C:\Users\nicho\Pictures\Linguagem\.NET\ProgramaTesteCsharp\bin\Debug\net6.0\ProgramaTesteCsharp.pdb
+C:\Users\nicho\Pictures\Linguagem\.NET\ProgramaTesteCsharp\obj\Debug\net6.0\ProgramaTesteCsharp.csproj.AssemblyReference.cache
+C:\Users\nicho\Pictures\Linguagem\.NET\ProgramaTesteCsharp\obj\Debug\net6.0\ProgramaTesteCsharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nicho\Pictures\Linguagem\.NET\ProgramaTesteCsharp\obj\Debug\net6.0\ProgramaTesteCsharp.AssemblyInfoInputs.cache
+C:\Users\nicho\Pictures\Linguagem\.NET\ProgramaTesteCsharp\obj\Debug\net6.0\ProgramaTesteCsharp.AssemblyInfo.cs
+C:\Users\nicho\Pictures\Linguagem\.NET\ProgramaTesteCsharp\obj\Debug\net6.0\ProgramaTesteCsharp.csproj.CoreCompileInputs.cache
+C:\Users\nicho\Pictures\Linguagem\.NET\ProgramaTesteCsharp\obj\Debug\net6.0\ProgramaTesteCsharp.dll
+C:\Users\nicho\Pictures\Linguagem\.NET\ProgramaTesteCsharp\obj\Debug\net6.0\ref\ProgramaTesteCsharp.dll
+C:\Users\nicho\Pictures\Linguagem\.NET\ProgramaTesteCsharp\obj\Debug\net6.0\ProgramaTesteCsharp.pdb
+C:\Users\nicho\Pictures\Linguagem\.NET\ProgramaTesteCsharp\obj\Debug\net6.0\ProgramaTesteCsharp.genruntimeconfig.cache
