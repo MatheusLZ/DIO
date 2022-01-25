@@ -1,0 +1,35 @@
+dotnet new console -n nome
+
+dotnet restore
+
+dotnet build
+
+code .
+
+dotnet run
+
+--------------------------------------------
+
+Att
+
+selecionar e extrair a seleção do Console.WriteLine primário para o fundo da aplicação deixando-o em metodo a parte e privado 
+
+private static string NewMethod(){
+
+- content -
+
+	return - opção contextualizada -;
+}
+
+
+- 
+
+renomear tanto no nome do novo método quanto na opção de string do usuário
+
+- 
+
+Apagar o método após While e trocar o Console.ReadLine pelo nome do novo método, deixando assim ambas as opções como uma só em referencia privada
+
+- 
+
+
