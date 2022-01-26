@@ -17,6 +17,7 @@
                     case "1":
                         Console.WriteLine("Informe o nome do aluno:");
                         var aluno = new Aluno();
+                        
                         aluno.Nome = Console.ReadLine();
                     
 
@@ -38,6 +39,8 @@
                         break;
                     case "2":
                         foreach(var a in alunos){
+
+                            if (!a.Nome.Equals(""))
                             Console.WriteLine($"ALUNO: {a.Nome} - NOTA {a.Nota}");
                         }
                         break;
